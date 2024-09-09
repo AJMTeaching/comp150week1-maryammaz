@@ -33,6 +33,13 @@ def count_vowels(s: str) -> int:
     Returns:
     - int: The number of vowels in the string
     """
+    vowels = 'aeiouAEIOU'
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
+
     # TODO: Implement this function
     pass
 
