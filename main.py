@@ -51,6 +51,7 @@ print("Updated dictionary after removing age:", person)
 print("Key-value pairs in person dictionary:")
 for key, value in person.items():
     print(f"{key}: {value}")
+
 # -----------------------------------------------------------------------------
 
 
