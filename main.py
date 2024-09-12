@@ -22,7 +22,7 @@ my_list.remove(20.5)
 print("Updated list after remove:", my_list)
 
 # Reverse the order of the elements in the list using a method
-my_list.reverse()
+my_list = my_list[::-1]
 
 # Print the reversed list
 print("Reversed list:", my_list)
